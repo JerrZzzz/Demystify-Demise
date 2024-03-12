@@ -1,10 +1,10 @@
 ---
-title: "Demystify Demise: A Comprehensive Analysis of Top 6 Causes of Death in 2020, Led by Organic Dementia"
-abstract: "Mortality rates and annual death numbers are critical indicators of population dynamics, reflecting both growth and contraction of population. In this report, we conducted a complete investigation into the myriad causes of death in the year 2020, developing multiple models to elucidate the six leading causes of mortality detailed in this comprehensive report. Our findings indicate that Organic Dementia, characterized as a form of cognitive impairment, emerged as the predominant cause, accompanied by five other significant conditions that collectively delineate the mortality of 2020. Unveiling the escalation in mortality attributable to diverse factors, we propose strategic interventions aimed at mitigating these lethal influences. Our objective is to enhance overall well-being and elevate human happiness by preventing the detrimental impact of these fatal factors."
+title: "Demystify Demise: A Comprehensive Analysis and Prediction of Dominating Causes of Death"
+abstract: "Mortality rates and annual death numbers are critical indicators of population dynamics, reflecting both the growth and contraction of the population. In this report, we conducted a complete investigation into the various causes of death in the year 2020, developing multiple models to elucidate the six leading causes of mortality and deducing the formula to predict future situations. Our findings indicate that Governments need to concentrate on environmental issues and raise citizen awareness to minimize the number of neoplasms, organic dementia and COVID-19 deaths. Our objective is to enhance overall well-being and elevate human happiness by Unveiling the escalation in mortality attributable to diverse factors."
 format: pdf
 date: "today"
 date-format: "long"
-thanks: "Files, Codes and Manuscript are Availiable at . The original study which we replicated is availiable at https://tellingstorieswithdata.com/13-ijaglm.html#negative-binomial-regression"
+thanks: "Files, Codes are Availiable at https://github.com/JerrZzzz/Demystify-Demise. The original study which we replicated is availiable at https://tellingstorieswithdata.com/13-ijaglm.html#negative-binomial-regression"
 author: Zhijun Zhong & Xincheng Zhang
 editor: visual
 toc: true
