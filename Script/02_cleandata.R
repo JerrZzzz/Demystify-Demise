@@ -20,6 +20,9 @@ library(tidyverse)
 
 rawdata <- read_csv("/cloud/project/Input/Data/rawdata.csv")
 
+rawdata <- rawdata %>%
+  select(calendar_year, cause, total_deaths, ranking)
+
 ## drop na values
 rawdata <- rawdata[!is.na(rawdata$calendar_year), ] 
 

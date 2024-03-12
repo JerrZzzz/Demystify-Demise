@@ -1,7 +1,7 @@
-calendar_year,cause,ranking,total_deaths,n
-2020,Organic dementia,1,2081,22
-2020,All other forms of chronic ...,2,1897,22
-2020,Malignant neoplasms of trac...,3,1563,22
-2020,Other ill-defined and unkno...,4,1464,4
-2020,Other chronic obstructive p...,5,1178,22
-2020,"COVID-19, virus identified",6,1084,3
+calendar_year,cause,total_deaths,ranking
+2020,Organic dementia,2081,1
+2020,All other forms of chronic ...,1897,2
+2020,Malignant neoplasms of trac...,1563,3
+2020,Other ill-defined and unkno...,1464,4
+2020,Other chronic obstructive p...,1178,5
+2020,"COVID-19, virus identified",1084,6

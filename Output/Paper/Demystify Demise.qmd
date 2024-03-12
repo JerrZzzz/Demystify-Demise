@@ -199,6 +199,8 @@ $$
 log_E(y_1) = 7.547-0.560a_1-0.194a_2+0.093a_3-0.477a_4-0.260a_5
 $$ {#eq-eq1}
 
+\newpage
+
 Through the above analysis of the Poisson model, the probability equation for the overall proportion of the top six causes of death in 2020 can be expressed [@eq-eq1]. The specific steps are to establish equations by observing various data observed in [@tbl-table2]. For Poisson, we first have the Intercept value of 7.547 and by observing the subsequent data, we use a1/a2/a3/a4/a5 to represent each cause of death in order, which can be known through [@tbl-table3] and establish the initial formula related to log.
 
 $$
@@ -207,11 +209,11 @@ $$ {#eq-eq2}
 
 Then, the expected count of an outcome variable E(y1) is obtained by adding the index e. The specific steps are the replacement of the log on both sides of the [@eq-eq1]. The final formula for the mean value of death caused by different reasons in the Poisson model was obtained [@eq-eq2].
 
-In this formula, we can quickly predict conclusions based on the research we need by changing different values of a. For example, if we want to predict the number of deaths due to COVID-19 in 2020 by the Poisson model. We can set values other than a1 to 0 and set a1 to 1, and the entire formula becomes [@eq-eq5].
-
 $$
 E(y_1) = e^{7.547-0.560*1-0.194*0+0.093*0-0.477*0-0.260*0}
 $$ {#eq-eq5}
+
+In this formula, we can quickly predict conclusions based on the research we need by changing different values of a. For example, if we want to predict the number of deaths due to COVID-19 in 2020 by the Poisson model. We can set values other than a1 to 0 and set a1 to 1, and the entire formula becomes [@eq-eq5].
 
 ## Negative Binomial Regression
 
@@ -223,15 +225,17 @@ $$
 log_E(y_2) = 7.581-0.484b_1-0.125b_2+0.181b_3-0.406b_4-0.187b_5
 $$ {#eq-eq3}
 
-Similarly, the expected count of an outcome variable E(y2) is obtained by adding the index e. The specific steps are the replacement of the log on both sides of the [@eq-eq3]. The final formula for the mean value of death caused by distinctive factors in the Negative Binomial Regression model was obtained [@eq-eq4].
-
-In this formula, we can quickly predict conclusions based on the research we need by changing different values of a. For example, if we want to predict the number of deaths due to COVID-19 in 2020 by the Negative Binomial Regression model. We can set values other than b1 to 0 and set b1 to 1, and the entire formula becomes [@eq-eq6]. $$
+$$
 E(y_2) = e^{7.581-0.484b_1-0.125b_2+0.181b_3-0.406b_4-0.187b_5}
 $$ {#eq-eq4}
+
+Similarly, the expected count of an outcome variable E(y2) is obtained by adding the index e. The specific steps are the replacement of the log on both sides of the [@eq-eq3]. The final formula for the mean value of death caused by distinctive factors in the Negative Binomial Regression model was obtained [@eq-eq4].
 
 $$
 E(y_2) = e^{7.581-0.484*1-0.125*0+0.181*0-0.406*0-0.187*0}
 $$ {#eq-eq6}
+
+In this formula, we can quickly predict conclusions based on the research we need by changing different values of a. For example, if we want to predict the number of deaths due to COVID-19 in 2020 by the Negative Binomial Regression model. We can set values other than b1 to 0 and set b1 to 1, and the entire formula becomes [@eq-eq6].
 
 ## Comparison
 
