@@ -36,5 +36,5 @@ alberta_cod <-
 
 ### write it out as a csv file ###
 write_csv(x = alberta_cod, 
-          "/cloud/project/Input/Data/rawdata.csv")
+          "/cloud/project/Data/Raw_Data/rawdata.csv")
 

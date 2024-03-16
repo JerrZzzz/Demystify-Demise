@@ -24,7 +24,7 @@ library(stringr)
 library(gridExtra)
 
 # Read csv to a dataset
-model <- read.csv("/cloud/project/Output/Data/Parquet.csv")
+model <- read.csv("/cloud/project/Model/Model_Parquet.csv")
 
 # set seed for reproduction purpose
 set.seed(64)
@@ -64,7 +64,7 @@ p2 <- pp_check(cause_of_death_alberta_neg_binomial) +
 graph <- grid.arrange(p1, p2, ncol = 2, nrow = 1)
 
 # save our big graph to folder plots 
-ggsave("model.jpg", graph, device = "jpeg", path = "/cloud/project/Output/Plots", width = 8, height = 6, units = "in")
+ggsave("model.jpg", graph, device = "jpeg", path = "/cloud/project/Other/Plots", width = 8, height = 6, units = "in")
 
 # use loo function to determine using number which one fit better. 
 poisson <- loo(cause_of_death_alberta_poisson, cores = 2)

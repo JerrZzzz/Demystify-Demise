@@ -18,7 +18,7 @@ library(dplyr)
 library(ggplot2)
 
 # Input dataset 
-cleandata <- read.csv("/cloud/project/Output/Data/deathoforganicdementia.csv")
+cleandata <- read.csv("/cloud/project/Data/Analysis_Data/deathoforganicdementia.csv")
 
 # filter the cause we want 
 cleandata <- cleandata %>%
@@ -41,5 +41,5 @@ p1 <- ggplot(cleandata, aes(x = calendar_year, y = total_death, color = cause_gr
 
 # save data to file plots 
 
-ggsave("causeofdeath.jpg", p1, device = "jpeg", path = "/cloud/project/Output/Plots", width = 8, height = 6, units = "in")
+ggsave("causeofdeath.jpg", p1, device = "jpeg", path = "/cloud/project/Other/Plots", width = 8, height = 6, units = "in")
 

@@ -23,13 +23,12 @@ library(tibble)
 set.seed(11964)
 
 # Simulate data using rnbinom function to simulate death 
-alberta_death_simulation <-
-  tibble(
-    cause = rep(x = c("Heart", "Stroke", "Covid", "Atherosclerotic", "Neoplasm", "Organic dementia"), times = 10),
-    year = rep(x = 2009:2020, times = 10, length.out=30),
-    deaths = rnbinom(n = 30, size = 20, prob = 0.1)
-  )
+alberta_death_simulation <- tibble(
+  cause = rep(c("Heart", "Stroke", "Covid", "Atherosclerotic", "Neoplasm", "Organic dementia"), each = 2),
+  year = rep(2009:2020, each = 5),
+  deaths = rnbinom(n = 60, size = 20, prob = 0.1)
+)
 
 # write it out as a csv file under location output -> data. 
-write_csv(x = alberta_death_simulation, "/cloud/project/Output/Data/simulationdata.csv")
+write_csv(x = alberta_death_simulation, "/cloud/project/Data/Analysis_Data/simulationdata.csv")
 

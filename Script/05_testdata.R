@@ -19,10 +19,10 @@ library(tidyverse)
 
 # Input data 
 
-c1 <- read_csv("/cloud/project/Output/Data/model.csv")
-c2 <- read_csv("/cloud/project/Output/Data/deathoforganicdementia.csv") 
-raw <- read_csv("/cloud/project/Input/Data/rawdata.csv")
-simulate <- read_csv("/cloud/project/Output/Data/simulationdata.csv")
+c1 <- read_csv("/cloud/project/Model/Model_Parquet.csv")
+c2 <- read_csv("/cloud/project/Data/Analysis_Data/deathoforganicdementia.csv") 
+raw <- read_csv("/cloud/project/Data/Raw_Data/rawdata.csv")
+simulate <- read_csv("/cloud/project/Data/Analysis_Data/simulationdata.csv")
 
 # test for clean 1 data 
 

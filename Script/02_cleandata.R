@@ -18,7 +18,7 @@ library(readr)
 library(dplyr)
 library(tidyverse)
 
-rawdata <- read_csv("/cloud/project/Input/Data/rawdata.csv")
+rawdata <- read_csv("/cloud/project/Data/Raw_Data/rawdata.csv")
 
 rawdata <- rawdata %>%
   select(calendar_year, cause, total_deaths, ranking)
@@ -86,8 +86,8 @@ grouped_data$ranking <- as.integer(grouped_data$ranking)
 
 # Write out our cleaned data
 write_csv(x = clean1, 
-          "/cloud/project/Output/Data/Parquet.csv")
+          "/cloud/project/Model/Model_Parquet.csv")
 
 write_csv(x = grouped_data, 
-          "/cloud/project/Output/Data/deathoforganicdementia.csv")
+          "/cloud/project/Data/Analysis_Data/deathoforganicdementia.csv")
 
